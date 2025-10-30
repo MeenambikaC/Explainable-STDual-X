@@ -64,7 +64,12 @@ Each dataset includes IMU readings from multiple body positions (e.g., wrist, an
 The results confirm the model’s ability to effectively capture **inter-sensor coordination** and **spatiotemporal motion patterns**.
 
 ---
-
+## Authors
+Meenambika Chandirakumar
+Thanusanth Kanagarajah
+Nithursika Kalanatharasa
+Dr. Sandareka Wickramanakaye
+Prof. Dulani Meedaniya
 ## ⚙️ Installation & Usage
 
 ### 1️⃣ Clone the Repository
