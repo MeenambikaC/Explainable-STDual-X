@@ -27,11 +27,22 @@ Experiments conducted on benchmark public datasets — **PAMAP2**, **Opportunity
 
 ## 🏗️ Architecture Overview
 
+## 🏗️ Architecture Overview
 
-- **Spatial Attention**: Captures sensor-wise importance.  
-- **Temporal Attention**: Extracts motion dynamics over time.  
+Below is the architecture of the **STDual-X** framework illustrating the integration of Spatio-Temporal Dual Attention and Cross-Sensor Attention:
+
+<p align="center">
+  <img src="images/STDual-X.png" alt="STDual-X Architecture" width="80%">
+</p>
+
+- **Spatio Temporal Attention**: Captures sensor-wise importance and Extracts motion dynamics over time.  
+<p align="center">
+  <img src="images/STDAT.png" alt="STDAT Architecture" width="20%">
+</p>
 - **Cross-Sensor Attention**: Models relationships across different body sensors (e.g., wrist, ankle, chest).  
-
+<p align="center">
+  <img src="images/CSA.png" alt="CSA" width="20%">
+</p>
 ---
 
 ## 📊 Datasets
@@ -65,11 +76,13 @@ The results confirm the model’s ability to effectively capture **inter-sensor 
 
 ---
 ## Authors
-Meenambika Chandirakumar
-Thanusanth Kanagarajah
-Nithursika Kalanatharasa
-Dr. Sandareka Wickramanakaye
-Prof. Dulani Meedaniya
+* Meenambika Chandirakumar
+* Thanusanth Kanagarajah
+* Nithursika Kalanatharasa
+* Dr. Sandareka Wickramanakaye
+* Prof. Dulani Meedaniya
+
+
 ## ⚙️ Installation & Usage
 
 ### 1️⃣ Clone the Repository
